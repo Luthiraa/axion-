@@ -1,4 +1,4 @@
-# STM32 Servo Hardware Abstraction Layer
+# AXION- : A STM32 Servo Hardware Abstraction Layer
 
 ## Overview
 The STM32 Servo Hardware Abstraction Layer (HAL) is a library designed to simplify the control of servo motors using STM32 microcontrollers. This library provides a high-level interface for initializing servos, setting their positions, and controlling their movements through PWM (Pulse Width Modulation) signals.
