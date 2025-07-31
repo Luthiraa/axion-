@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/luthi/Desktop/goGreen/stm32-servo-hal/tests",
-      "program": "c:/Users/luthi/Desktop/goGreen/stm32-servo-hal/tests/build/Debug/outDebug",
+      "cwd": "c:/Users/luthi/Desktop/goGreen/tests",
+      "program": "c:/Users/luthi/Desktop/goGreen/tests/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
