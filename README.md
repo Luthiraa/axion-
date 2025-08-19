@@ -13,35 +13,35 @@ The STM32 Servo Hardware Abstraction Layer (HAL) is a library designed to simpli
 ## Project Structure
 ```
 stm32-servo-hal
-├── src                # Source files for the library
-│   ├── servo_hal.c   # Main functions for servo control
-│   ├── servo_hal.h   # Header file for servo functions
-│   ├── pwm_driver.c   # PWM driver implementation
-│   ├── pwm_driver.h   # Header file for PWM functions
-│   ├── timer_config.c # Timer configuration for PWM
-│   └── timer_config.h # Header file for timer functions
-├── inc                # Header files
-│   └── servo_types.h  # Types and constants for servo control
-├── examples           # Example projects
-│   ├── basic_servo_control.c # Basic servo control example
-│   ├── multi_servo_example.c  # Control multiple servos example
-│   └── servo_sweep.c  # Sweeping motion example
-├── drivers            # Driver files
-│   ├── stm32_hal_wrapper.c # STM32 HAL wrapper
-│   └── stm32_hal_wrapper.h # Header for HAL wrapper
-├── config             # Configuration files
-│   ├── servo_config.h # Servo control parameters
-│   └── board_config.h # Board-specific settings
-├── tests              # Unit tests
-│   ├── test_servo_hal.c # Tests for servo HAL functions
-│   └── test_pwm_driver.c # Tests for PWM driver functions
-├── docs               # Documentation
-│   ├── API_reference.md # API reference for the library
-│   └── hardware_setup.md # Hardware setup instructions
-├── Makefile           # Build instructions
-├── CMakeLists.txt     # CMake build configuration
-├── LICENSE            # Licensing information
-└── README.md          # Project overview and instructions
+├── src              
+│   ├── servo_hal.c  
+│   ├── servo_hal.h   
+│   ├── pwm_driver.c  
+│   ├── pwm_driver.h  
+│   ├── timer_config.c
+│   └── timer_config.h 
+├── inc              
+│   └── servo_types.h 
+├── examples         
+│   ├── basic_servo_control.c 
+│   ├── multi_servo_example.c 
+│   └── servo_sweep.c 
+├── drivers            
+│   ├── stm32_hal_wrapper.c
+│   └── stm32_hal_wrapper.h 
+├── config            
+│   ├── servo_config.h 
+│   └── board_config.h 
+├── tests              
+│   ├── test_servo_hal.c
+│   └── test_pwm_driver.c 
+├── docs            
+│   ├── API_reference.md 
+│   └── hardware_setup.md 
+├── Makefile          
+├── CMakeLists.txt     
+├── LICENSE            
+└── README.md        
 ```
 
 ## Installation
